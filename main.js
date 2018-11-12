@@ -40,6 +40,10 @@ function autoClick(audio, elem) {
       r++;
     }
 
+    if (audio.duration - 10 >= audio.duration) {
+      clearInterval(int);
+      return "";
+    }
     console.log(timing);
 
     if (i > 78) {
